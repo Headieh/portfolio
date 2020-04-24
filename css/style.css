@@ -424,7 +424,7 @@ i:hover, i:active {
   width: 100%;
   background-size: cover;
   animation: 800s stars infinite linear;
-  background-image: url("/img/space.jpg");
+  background-image: url("img/space.jpg");
   padding: 4rem; }
 
 button,
