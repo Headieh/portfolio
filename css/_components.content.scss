@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;}
+
+.main {
+    padding: 2rem;}
+
+.portrait {
+  height: 50%;
+  width: auto;
+  display: block;}
+
+
+ul,li {
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: text-top;}
+
+//body{
+//background-image: $bgi;
+//background-repeat: no-repeat;
+//background-size: cover;}
+
+.modal{
+background-image: $bgi-modal;
+background-repeat: no-repeat;
+background-size: cover;}
+
+//ul[data-title]::before {
+	//content: attr(data-title);
+	//displays data-title for __items
+	//text-decoration: underline;
+	//font-weight: bold;
+  //font-size: $medium;
+//}
+
+a,i{
+  color: $darken-blue;
+  padding:1rem;
+  text-align: left;
+
+  &:hover{
+    color:$lighten-blue;}
+}
+
+i:hover, i:active{
+  transform: rotate(360deg);
+  transition: transform 1s;}
+
+.overall{
+     width: 100%;
+     background-size: cover;
+     animation: $a-stars;
+     background-image: url('/img/space.jpg');
+     padding: 4rem;}
+
+//.box::first-line {
+//	font-family: 'Loved by the King', cursive;
+//	text-decoration: underline;
+//}
+
+button,
+label,
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
+  color: $black;
+	display: block;
+	border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  margin-right: 25%;}
+
+label{
+  color: $white;}
+
+input[type=submit] {
+	background-color: green;}
+
+#wrapper {animation:$a-astronaut;}
+
+#float {
+  background:transparent;
+  height:auto;
+  width:100%;
+  text-align:center;
+  text-transform:uppercase;
+  color:#fff;}
+
+.astronaut {animation: $a-float;}
+
+.astronaut img {
+    height:auto;
+
+    @include media-query($mq: 'mobile') {
+ 		width:25%;
+    margin-right: 15rem;}
+
+    @include media-query($mq: 'lg') {
+    max-width:30%;}
+
+    @include media-query($mq: 'tab') {
+    max-width:50%;}
+  }
+
+.floatin {
+    font-size:2em;
+    font-family:sans-serif;
+    animation: $a-sigit-float-bg;}
+
+.behind {
+  font-size: 4em;
+  font-family:sans-serif;
+  z-index:-1;
+  opacity:0.3;
+  top:-100px;
+  position:fix;
+  animation: $a-sigit-float-behind;}
