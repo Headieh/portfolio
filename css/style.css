@@ -111,8 +111,10 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
-  font-size: 2em;
+h1, h2 {
+  //font-size: 2em;
+  color: white;
+  text-align: center;
   margin: 0.67em 0; }
 
 /**
@@ -394,20 +396,31 @@ html {
 .main {
   padding: 2rem; }
 
+p {
+  padding: 0;
+  margin: 0; }
+
 .portrait {
+  padding-top: 3em;
   height: 50%;
   width: auto;
   display: block; }
 
-ul, li {
+ul, ul > li {
   display: inline-block;
   list-style-type: none;
   vertical-align: text-top; }
+
+.tech, .tech > li {
+  display: block; }
 
 .modal {
   background-image: linear-gradient(to bottom right, #ffffff, #000000);
   background-repeat: no-repeat;
   background-size: cover; }
+
+.card {
+  border-style: none; }
 
 a, i {
   color: #120d7f;
@@ -422,10 +435,19 @@ i:hover, i:active {
 
 .overall {
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  height:50rem;
+  //background-size: cover;
   animation: 800s stars infinite linear;
   background-image: url("../img/space.jpg");
+  background-color: #000000;
   padding: 4rem; }
+
+
+p:first-of-type {
+  font-weight: bolder;
+  margin-top: 1em; }
 
 button,
 label,

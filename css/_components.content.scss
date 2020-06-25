@@ -8,22 +8,23 @@ html {
 
 .main {
     padding: 2rem;}
+p{
+  padding:0;
+  margin:0;}
 
 .portrait {
+  padding-top: 3em;
   height: 50%;
   width: auto;
   display: block;}
 
+ul, ul > li {
+    display: inline-block;
+  	list-style-type: none;
+  	vertical-align: text-top;}
 
-ul,li {
-	display: inline-block;
-	list-style-type: none;
-	vertical-align: text-top;}
-
-//body{
-//background-image: $bgi;
-//background-repeat: no-repeat;
-//background-size: cover;}
+.tech, .tech > li{
+display: block;}
 
 .modal{
 background-image: $bgi-modal;
@@ -37,6 +38,9 @@ background-size: cover;}
 	//font-weight: bold;
   //font-size: $medium;
 //}
+.card{
+  border-style: none;
+}
 
 a,i{
   color: $darken-blue;
@@ -56,12 +60,13 @@ i:hover, i:active{
      background-size: cover;
      animation: $a-stars;
      background-image: url('../img/space.jpg');//, url("paper.gif");
+     background-color: $black;
      padding: 4rem;}
 
-//.box::first-line {
-//	font-family: 'Loved by the King', cursive;
-//	text-decoration: underline;
-//}
+p:first-of-type {
+	//font-family: 'Loved by the King', cursive;
+	font-weight: bolder;
+  margin-top:1em;}
 
 button,
 label,
