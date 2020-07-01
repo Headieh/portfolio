@@ -1,0 +1,89 @@
+
+.main {
+    padding: 2rem;}
+
+img {
+    width: 100%;
+    padding:1em;
+    margin:1em;
+    max-width: 23rem;
+}
+
+p{
+  padding:1em;
+  margin:1em;
+}
+.education > article> p{
+  padding:0;
+  margin:0;
+}
+
+article{
+  padding:1em;
+}
+
+ul, ul > li {
+    display: block;
+  	list-style-type: none;
+  	vertical-align: text-top;}
+
+
+.tech, .tech > li{
+display: block;}
+
+.modal{
+background-image: $bgi-modal;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.card{
+  border-style: none;
+}
+
+a,i{
+  color: $darken-blue;
+  padding:1rem;
+  text-align: left;
+
+  &:hover{
+    color:$lighten-blue;}
+}
+
+i:hover, i:active{
+  transform: rotate(360deg);
+  transition: transform 1s;}
+
+  form {
+      margin-left: 25%;
+      margin-right:25%;
+      width: 50%;
+
+  }
+
+p:first-of-type {
+	//font-family: 'Loved by the King', cursive;
+	font-weight: bolder;
+  margin-top:1em;}
+
+button,
+label,
+input,
+select,
+textarea {
+
+	font-family: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
+  color: $black;
+  padding:1em;
+	display: block;
+  text-align: left;
+  width: 100%;
+  margin: auto;}
+
+
+input[type=submit] {
+  width: 50%;
+  color:white;
+  text-align: center;
+	background-color: rgb(203,50,109);}
