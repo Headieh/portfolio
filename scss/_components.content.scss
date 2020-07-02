@@ -32,6 +32,27 @@ img {
 
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel {
+    width: 28rem;
+    overflow: hidden;
+}
+.carousel-item {
+p,h5{
+  text-align: center;
+}
+  > img{
+    object-fit: cover;
+    height: 18.75rem;
+    width: 28rem;
+    margin: auto;
+}
+
+}
 
 h6{
   text-align: center;

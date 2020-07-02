@@ -131,8 +131,9 @@
                       Practice </a>
                   </li>
                   <li>
-                    <a target="_blank" href="#">
-                      Solutions </a>
+                    <a href="#" data-toggle="modal" data-target="#solFlexbox" title="Solutions">
+                      Solutions
+                    </a>
                   </li>
                 </ul>
 
@@ -144,9 +145,12 @@
 
                   </li>
                   <li>
-                    <a target="_blank" href="#">
-                      Solutions </a>
+                    <a href="#" data-toggle="modal" data-target="#solFlukeout" title="Solutions">
+                      Solutions
+                    </a>
                   </li>
+
+
 
                 </ul>
 
@@ -213,6 +217,118 @@
         </div>
       </div>
     </div>
+
+    <!-- SFlex Popup -->
+    <div class="modal fade" id="solFlexbox" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">CSS - Flexbox Froggy Solutions</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+<p>Solutions as of 7/1/2020</p>
+            <ul>
+              <li> 01: justify-content: flex-end;</li>
+              <li> 02: justify-content: center;</li>
+              <li> 03: justify-content:space-around;</li>
+              <li> 04: justify-content:space-between;</li>
+              <li> 05: align-items:flex-end;</li>
+              <li> 06: align-items:center;<br>
+justify-content:center; </li>
+              <li> 07: align-items:flex-end;<br>
+justify-content:space-around;</li>
+              <li> 08: flex-direction:row-reverse;</li>
+              <li> 09: flex-direction:column;</li>
+              <li> 10: flex-direction:row-reverse;<br>
+justify-content:flex-end; </li>
+              <li> 11: justify-content:flex-end;<br>
+flex-direction:column; </li>
+              <li> 12: flex-direction:column-reverse;<br>
+justify-content:space-between;</li>
+              <li> 13: align-items: flex-end;<br>
+justify-content:center;<br>
+flex-direction:row-reverse;</li>
+              <li> 14: order: 3</li>
+              <li> 15: order:-1</li>
+              <li> 16: align-self:flex-end;</li>
+              <li> 17: align-self:flex-end;<br>
+order:1;</li>
+              <li> 18: flex-wrap:wrap</li>
+              <li> 19: flex-wrap:wrap;<br>
+flex-direction:column;</li>
+              <li> 20: flex-flow:column wrap;</li>
+              <li> 21: align-content: flex-start;</li>
+              <li> 22: align-content: flex-end;</li>
+              <li> 23: flex-direction: column-reverse;<br>
+    align-content: center; </li>
+              <li> 24: flex-flow:column-reverse wrap-reverse;<br>
+    justify-content:center;<br>
+    align-content:space-between;</li>
+            </ul>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Flex Popup END-->
+
+    <!-- SFlukeout Popup -->
+    <div class="modal fade" id="solFlukeout" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">CSS Selectors - Flukeout Solutions</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+<p>Solutions as of 7/1/2020</p>
+            <ul>
+              <li> 01: plate</li>
+              <li> 02: bento</li>
+              <li> 03: #fancy</li>
+              <li> 04: plate apple</li>
+              <li> 05: #fancy pickle</li>
+              <li> 06: .small </li>
+              <li> 07: orange.small</li>
+              <li> 08: bento orange.small</li>
+              <li> 09: bento, plate </li>
+              <li> 10: * </li>
+              <li> 11: plate * </li>
+              <li> 12: plate+apple</li>
+              <li> 13: bento~pickle</li>
+              <li> 14: plate > apple</li>
+              <li> 15: orange:first-child</li>
+              <li> 16: plate apple:only-child, plate pickle:only-child</li>
+              <li> 17: .small:last-child</li>
+              <li> 18: plate:nth-child(3)</li>
+              <li> 19: bento:nth-last-child(3)</li>
+              <li> 20: apple:first-of-type</li>
+              <li> 21: plate:nth-of-type(even)</li>
+              <li> 22: plate:nth-of-type(2n+3)</li>
+              <li> 23: plate apple:only-of-type</li>
+              <li> 24: orange:last-of-type, apple:last-of-type</li>
+              <li> 25: bento:empty</li>
+              <li> 26: apple:not(.small)</li>
+              <li> 27: *[for]</li>
+              <li> 28: plate[for]</li>
+              <li> 29: bento[for="Vitaly"]</li>
+              <li> 30: *[for^="Sa"]</li>
+              <li> 31: *[for$="ato"]</li>
+              <li> 32: bento[for*="obb"]</li>
+            </ul>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Flukeout Popup END-->
 
 
     <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
