@@ -37,9 +37,20 @@ img {
   filter: invert(1);
 }
 
+.carousel-control-prev-icon {
+  margin-left: -.5em;
+  margin-bottom:auto;
+}
+
+.carousel-control-next-icon {
+  margin-right: -.5em;
+  margin-bottom:auto;
+}
+
 .carousel {
-    width: 95%;
-    overflow: hidden;
+  margin: 1em;
+  text-align: center;
+  overflow: hidden;
 }
 .carousel-item {
 p,h5{
@@ -48,7 +59,7 @@ p,h5{
   > img{
     object-fit: contain;
     height: 18.75rem;
-    width: 100%;
+    width: auto;
     margin: auto;
 }
 
