@@ -1,6 +1,6 @@
 
 .main {
-    padding: 2rem;
+    padding-right: 1rem;
 
   }
 body {
@@ -10,7 +10,7 @@ body {
     }
 
 img {
-    width: 100%;
+    width: 95%;
     padding:1em;
     margin:1em;
     max-width: 23rem;
@@ -59,7 +59,7 @@ p,h5{
   > img{
     object-fit: contain;
     height: 18.75rem;
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 
@@ -103,7 +103,7 @@ background-size: cover;}
 
 a,i{
   color: $darken-blue;
-  padding:1rem;
+  padding:.75rem;
   text-align: left;
 
   &:hover{
@@ -148,9 +148,7 @@ button, input, textarea{
 }
 .close{
   text-align: right;
-  margin:1em;
-  padding:1em;
-  width:10%;
+
 }
 button,
 label,
