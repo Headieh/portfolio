@@ -46,9 +46,9 @@ p,h5{
   text-align: center;
 }
   > img{
-    object-fit: cover;
+    object-fit: contain;
     height: 18.75rem;
-    width: 28rem;
+    width: 100%;
     margin: auto;
 }
 
