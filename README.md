@@ -8,7 +8,7 @@ documents select projects I have worked on demonstrating key skills.
 -   Navigate to the folder you want this code to belong in within terminal
 -   Run `npm install`
 -   Run `gulp`
--	  If you have permissions issues, checkout this [link](https://stackoverflow.com/questions/50258901/cannot-find-module-gulp-sass)
+-   If you have permissions issues, checkout this [link](https://stackoverflow.com/questions/50258901/cannot-find-module-gulp-sass)
 
 ### To View:
 - Visit [site](https://headieh.github.io/Portfolio/)
