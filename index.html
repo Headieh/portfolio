@@ -9,10 +9,31 @@
   <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <title>N Godwin - Home</title>
+  <!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="https://headieh.github.io/Portfolio/index.html" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="N Godwin Portfolio" />
+<meta property="og:description"   content="Headieh Nichole Godwin's personal portfolio. It contains front-end, python, and data science projects" />
+<meta property="og:image"         content="https://headieh.github.io/Portfolio/store/portfolio-picture.png" />
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ShiftyDan">
+<meta name="twitter:title" content="N Godwin Portfolio">
+<meta name="twitter:description" content="Headieh Nichole Godwin's personal portfolio. It contains front-end, python, and data science projects">
+<meta name="twitter:creator" content="@ShiftyDan">
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta name="twitter:image" content="https://headieh.github.io/Portfolio/store/portfolio-picture.png">
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+
+<!--  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=670822760024262&autoLogAppEvents=1" nonce="Grfd4bbE"></script>
+-->  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -275,9 +296,35 @@
 
 
 
-  <!--<footer>
-         Created by: Nichole Godwin
-      </footer>-->
+<footer>
+  <div class="fb-share-button"
+data-href="https://headieh.github.io/Portfolio/index.html"
+data-layout="button">
+</div>
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Hello%20world"
+  data-size="large">
+Tweet</a>
+      </footer>
+
+      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      twttr.widgets.createShareButton(
+        '/',
+        document.getElementById('container'),
+        {
+          text: 'Hello World'
+        }
+      );
+
+    </script>
+
   <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
