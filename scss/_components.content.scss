@@ -15,11 +15,14 @@ img {
     margin:1em;
     max-width: 23rem;
 }
-
+.card-body{
+  background-color: #f0f0f0;
+}
 .card .project{
   padding:0;
   margin:1em;
-  border-style: solid;
+  background-color: white;
+  //border-style: solid;
   border-radius: 20px;
   height:95%;
 
@@ -115,9 +118,8 @@ i:hover, i:active{
   transition: transform 1s;}
 
   form {
-      margin-left: 25%;
-      margin-right:25%;
-      width: 50%;
+      margin: auto;
+      width: 80%;
 
   }
 
@@ -160,7 +162,7 @@ textarea {
 	font-size: 100%;
 	box-sizing: border-box;
   color: $black;
-  padding:.15em;
+  padding:.5em;
 	display: block;
   text-align: left;
   width: 100%;
