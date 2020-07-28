@@ -1,37 +1,56 @@
+/* Sticky Footer Classes */
+body,
+html {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  padding: 1rem;
+}
+
+.nav-link i {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}
 
 .main {
-    padding-right: 1rem;
+  padding: 1rem;
+}
 
-  }
 body {
-        font-family: "Montserrat";
-        font-weight: lighter;
-    }
+  font-family: "Montserrat";
+  font-weight: lighter;
+  height: 100%;
+}
 
 img {
-    width: 95%;
-    padding:1em;
-    margin:1em;
-    max-width: 23rem;
+  width: 95%;
+  padding: 1em;
+  margin: 1em;
+  max-width: 23rem;
 }
-.card-body{
+
+.card-body {
   background-color: #f0f0f0;
 }
 
-.card .project{
-  padding:0;
-  margin:1em;
+.card .project {
+  padding: 0;
+  margin: 1em;
   background-color: white;
   border-radius: 20px;
-  height:95%;
+  height: 95%;
 
   > h2 {
     border-radius: 20px 20px 0 0;
     background-image: $bgi-proj;
     text-align: center;
   }
-
-
 }
 
 .carousel-control-next-icon,
@@ -41,12 +60,12 @@ img {
 
 .carousel-control-prev-icon {
   margin-left: -.5em;
-  margin-top:auto;
+  margin-top: auto;
 }
 
 .carousel-control-next-icon {
   margin-right: -.5em;
-  margin-top:auto;
+  margin-top: auto;
 }
 
 .carousel {
@@ -54,126 +73,141 @@ img {
   text-align: center;
   overflow: hidden;
 }
+
 .carousel-item {
-p,h5{
-  text-align: center;
-}
-  > img{
+  h5,
+  p {
+    text-align: center;
+  }
+
+  > img {
     object-fit: contain;
     height: 18.75rem;
     width: 100%;
     margin: auto;
+  }
 }
 
-}
-
-h6{
+h6 {
   text-align: center;
-  padding:.5rem
-}
-p{
-  padding:1em;
-  margin:1em;
+  padding: 0.5rem;
 }
 
-.education > article> p{
-  padding:0;
-  margin:0;
+p {
+  padding: 1em;
+  margin: 1em;
 }
 
-article{
-  padding:1em;
+.education > article > p {
+  padding: 0;
+  margin: 0;
 }
 
-.navbar, .navbar > .nav-item {
-    display: block;
-  	list-style-type: none;
-  	vertical-align: text-top;}
+article {
+  padding: 1em;
+}
 
+.navbar,
+.navbar > .nav-item {
+  display: block;
+  list-style-type: none;
+  vertical-align: text-top;
+}
 
-.tech, .tech > li{
-display: block;}
+.tech,
+.tech > li {
+  display: block;
+}
 
-.modal{
-background-image: $bgi-modal;
-background-repeat: no-repeat;
-background-size: cover;}
+.modal {
+  background-image: $bgi-modal;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.card{
+.card {
   border-style: none;
 }
 
-a,i{
-  color: $darken-blue;
-  padding:.75rem;
-  text-align: left;
+#page-content {
+  a,
+  i {
+    color: $darken-blue;
+    padding: 0.75rem;
+    text-align: left;
 
-  &:hover{
-    color:$lighten-blue;}
-}
-
-i:hover, i:active{
-  transform: rotate(360deg);
-  transition: transform 1s;}
-
-  form {
-      margin: auto;
-      width: 80%;
-
+    &:hover {
+      color: $lighten-blue;
+    }
   }
 
+  i:active,
+  i:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+  }
+}
+
+form {
+  margin: auto;
+  width: 80%;
+}
+
 p:first-of-type {
-	//font-family: 'Loved by the King', cursive;
-	font-weight: bolder;
-  margin-top:1em;}
-nav{
+  //font-family: 'Loved by the King', cursive;
+  font-weight: bolder;
+  margin-top: 1em;
+}
+
+nav {
   font-family: "Cinzel";
 }
 
- .card-header{
-   background-image: $bgi-cat;
+.card-header {
+  background-image: $bgi-cat;
 
-   h2> button{
-     color:black;
-     font-weight: bolder;
-   }
+  h2 > button {
+    color: black;
+    font-weight: bolder;
+  }
+}
 
-
- }
-
-.modal-title{
+.modal-title {
   width: 100%;
 }
 
-button, input, textarea{
+button,
+input,
+textarea {
   background-color: rgb(250,250,250);
   border-width: thin;
   border-style: solid;
   border-bottom: thin solid $lighten-black;
 }
-.close{
-  text-align: right;
 
+.close {
+  text-align: right;
 }
+
 button,
-label,
 input,
+label,
 select,
 textarea {
-
-	font-family: inherit;
-	font-size: 100%;
-	box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
   color: $black;
-  padding:.5em;
-	display: block;
+  padding: 0.5em;
+  display: block;
   text-align: left;
   width: 100%;
-  margin: auto;}
-
+  margin: auto;
+}
 
 input[type=submit] {
   width: 50%;
-  color:white;
+  color: white;
   text-align: center;
-	background-color: rgb(203,50,109);}
+  background-color: rgb(203,50,109);
+}
