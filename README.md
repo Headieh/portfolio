@@ -19,5 +19,5 @@ This project demonstrates:
 -   Run `npm install`
 -   Run `gulp`
 
-### To View:
+### View:
 - Visit [site](https://headieh.github.io/Portfolio/)
