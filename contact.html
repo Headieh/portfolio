@@ -1,130 +1,101 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-   <head>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173087916-1"></script>
-     <script src='/scripts/ga.js'></script>
-     
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/style.css" />
-     <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat:400&display=swap" rel="stylesheet">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173087916-1"></script>
+  <script src='/scripts/ga.js'></script>
 
-     <title>N Godwin - Contact</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Montserrat:400&display=swap" rel="stylesheet">
+
+  <title>N Godwin - Contact</title>
 </head>
 
 <body class="d-flex flex-column">
 
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-         <div class="navbar-header">
-           <a class="navbar-brand" href="#">Nichole Godwin</a>
-         </div>
-         <ul class="navbar-nav">
-           <li class="nav-item">
-             <a class="nav-link" href="index.html">About</a> <!-- data-toggle="tooltip" title="Homepage" -->
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="projects.html">Portfolio</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link active" href="contact.html">Contact</a>
-           </li>
-         </ul>
-       </div>
-     </nav>
-
-
-     <div id="page-content">
-       <div class="row justify-content-center main">
-
-
-
-<!-- action=”mailto:headiehg@mail.com”-->
-
-          <!-- <form method="GET">
-               <label>*Name:
-               <input required type="text" name="contactsName" placeholder="David Bowie">
-               </label>
-               <label>*Email:
-               <input required type="email" name="contactsEmail" placeholder="ziggy.stardust@space.com">
-               </label>
-               <label>*Message:
-               <textarea required rows="8" cols="20" name="contactsMessage" placeholder="Life on Mars?"></textarea>
-               </label>
-
-               <input type="submit" value="SUBMIT">
-            </form>-->
-
-            <form name='input'
-            method="POST"
-             action="https://formspree.io/headiehg@mail.com">
-             <label>*Name:
-             <input required type="text" name="contactsName" placeholder="David Bowie">
-             </label>
-             <label>*Email:
-             <input required type="email" name="contactsEmail" placeholder="ziggy.stardust@space.com">
-             </label>
-             <label>*Message:
-             <textarea required rows="8" cols="20" name="contactsMessage" placeholder="Life on Mars?"></textarea>
-             </label>
-
-<input type="submit" value="SUBMIT">
-<input type='hidden' name="_subject" value="Message from Portfolio"/>
-<input type='hidden' name="_next" value="thanks.html"/>
-
-            </form>
-
-
-
-
-         </div>
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Nichole Godwin</a>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a> <!-- data-toggle="tooltip" title="Homepage" -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
+  <div id="page-content">
+    <div class='col-lg-6 mx-auto col-md-12'>
+        <form name='input' method="POST" action="https://formspree.io/headiehg@mail.com">
+          <label>*Name:
+            <input required type="text" name="contactsName" placeholder="David Bowie">
+          </label>
+          <label>*Email:
+            <input required type="email" name="contactsEmail" placeholder="ziggy.stardust@space.com">
+          </label>
+          <label>*Message:
+            <textarea required rows="8" cols="20" name="contactsMessage" placeholder="Life on Mars?"></textarea>
+          </label>
+          <input type="submit" value="SUBMIT">
+          <input type='hidden' name="_subject" value="Message from Portfolio" />
+          <input type='hidden' name="_next" value="thanks.html" />
+        </form>
+    </div>
+  </div>
 
-    <footer>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- fixed-bottom-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="footerNavbarNavDropdown">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Share:</a>
-          </div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <!--https://developers.facebook.com/docs/sharing/web-->
-              <a target="_blank" data-toggle="tooltip" title="Share on Facebook" class="nav-link" href="http://www.facebook.com/dialog/share?app_id=670822760024262&href=https://hngodwin.com&display=popup" target="_blank">
-                <i class="fa fa-facebook-square fb-share-button fa-2x" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a target="_blank" data-toggle="tooltip" title="Tweet" class="nav-link" href="https://twitter.com/share?text=Check out Nichole's projects!&url=https://hngodwin.com">
-                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-              <!--https://twitter.com/intent/tweet?url=https://hngodwin.com-->
-            </li>
-            <li class="nav-item">
-              <a data-toggle="tooltip" title="Email" class="nav-link" href="mailto:?subject=Check out Nichole's projects!&amp;body= See them here https://hngodwin.com ">
-                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- sticky-bottom-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="footerNavbarNavDropdown">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Share:</a>
         </div>
-      </nav>
-    </footer>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!--https://developers.facebook.com/docs/sharing/web-->
+            <a target="_blank" data-toggle="tooltip" title="Share on Facebook" class="nav-link" href="http://www.facebook.com/dialog/share?app_id=670822760024262&href=https://hngodwin.com&display=popup" target="_blank">
+              <i class="fa fa-facebook-square fb-share-button fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" data-toggle="tooltip" title="Tweet" class="nav-link" href="https://twitter.com/share?text=Check out Nichole's projects!&url=https://hngodwin.com">
+              <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            <!--https://twitter.com/intent/tweet?url=https://hngodwin.com-->
+          </li>
+          <li class="nav-item">
+            <a data-toggle="tooltip" title="Email" class="nav-link" href="mailto:?subject=Check out Nichole's projects!&amp;body= See them here https://hngodwin.com ">
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+     </div>
+    </nav>
+  </footer>
 
-      <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4c496fc4fb.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-   </body>
+</body>
+
 </html>
