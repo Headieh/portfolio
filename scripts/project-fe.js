@@ -5,9 +5,9 @@ const feTwo = ["This Portfolio",
   "https://github.com/Headieh/Portfolio",
   "https://github.com/Headieh/Portfolio/blob/master/README.md",
   ["Use of Gulp",
-    "User-Friendly Webpage",
+    "User-friendly webpage",
     "Proper use of elements",
-    "Web Form Features",
+    "Web form features",
     "Basic elements of client-server architecture"
   ]
 ];
@@ -16,12 +16,12 @@ const feOne = ["Travel Plans",
   "https://nichole-travel.netlify.app",
   "https://github.com/Headieh/travel-UW3",
   "https://github.com/Headieh/travel-UW3/blob/master/README.md",
-  ["Sass Language extension",
+  ["Sass language extension",
     "Bootstrap4",
     "JavaScript functions",
-    "Use of Dynamic data from an API",
-    "Organizing code using Vue, a front-end JavaScript Framework",
-    "Transitions and Animations",
+    "Use of dynamic data from an API",
+    "Organizing code using Vue, a front-end JavaScript framework",
+    "Transitions and animations",
     "SEO Principles"
   ]
 ];
@@ -35,7 +35,7 @@ const feThree = ["Adopt-a-Dog",
 								 fluid layouts, and media queries",
     "Principles of effective user experience",
     "Media playback with media elements",
-    "Accessibility Features",
+    "Accessibility features",
     "Custom styling, including web fonts"
   ]
 ];
