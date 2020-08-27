@@ -1,17 +1,5 @@
 const feOptions = ["Site", "Code", "ReadMe"];
 
-const feTwo = ["This Portfolio",
-  "https://hngodwin.com",
-  "https://github.com/Headieh/Portfolio",
-  "https://github.com/Headieh/Portfolio/blob/master/README.md",
-  ["Use of Gulp",
-    "User-friendly webpage",
-    "Proper use of elements",
-    "Web form features",
-    "Basic elements of client-server architecture"
-  ]
-];
-
 const feOne = ["Travel Plans",
   "https://nichole-travel.netlify.app",
   "https://github.com/Headieh/travel-UW3",
@@ -23,6 +11,18 @@ const feOne = ["Travel Plans",
     "Organizing code using Vue, a front-end JavaScript framework",
     "Transitions and animations",
     "SEO Principles"
+  ]
+];
+
+const feTwo = ["This Portfolio",
+  "https://hngodwin.com",
+  "https://github.com/Headieh/Portfolio",
+  "https://github.com/Headieh/Portfolio/blob/master/README.md",
+  ["Use of Gulp",
+    "User-friendly webpage",
+    "Proper use of elements",
+    "Web form features",
+    "Basic elements of client-server architecture"
   ]
 ];
 
@@ -40,8 +40,18 @@ const feThree = ["Adopt-a-Dog",
   ]
 ];
 
+const feFour = ["Coming Soon",
+  "https://headieh.github.io/construction/",
+  "https://github.com/Headieh/construction",
+  "https://github.com/Headieh/construction/blob/master/README.md",
+  ["JQuery",
+    "Use of dynamic data from an API",
+    "Custom styling, including web fonts"
+  ]
+];
+
 const feProj = document.getElementById("fep");
-let feAll = [feThree, feTwo, feOne];
+let feAll = [feFour, feThree, feTwo, feOne];
 
 for (let x = 0; x < feAll.length; x += 1) {
   const object = feAll[x];

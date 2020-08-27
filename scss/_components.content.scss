@@ -58,6 +58,7 @@ img {
     border-radius: 20px 20px 0 0;
     background-image: $bgi-proj;
     text-align: center;
+    color: $ch-proj;
   }
 }
 
@@ -175,10 +176,18 @@ nav {
   background-image: $bgi-cat;
 
   h2 > button {
-    color: black;
+    color: $ch-cat;
+    font-size: $xlarge;
     font-weight: bolder;
   }
+
 }
+
+.btn-link:hover {
+  color: $ch-cat-h;
+  text-shadow: 1px 1px;
+}
+
 
 .modal-title {
   width: 100%;
