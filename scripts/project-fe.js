@@ -46,7 +46,9 @@ const feFour = ["Coming Soon",
   "https://github.com/Headieh/construction/blob/master/README.md",
   ["JQuery",
     "Use of dynamic data from an API",
-    "Custom styling, including web fonts"
+    "Custom styling, including web fonts",
+    "Animations",
+    "Gulp"
   ]
 ];
 
